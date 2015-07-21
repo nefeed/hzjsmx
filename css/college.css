@@ -1,0 +1,26 @@
+#tabinfo ul li {
+    width: 100%;
+}
+#newsTableDiv {
+    background: #fff;
+}
+#newsTableDiv td {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#newsTableDiv  a{ color:#333; text-decoration:none;}
+#newsTableDiv  a:hover{ color:#F00; text-decoration:underline;}
+#newsTableDiv  a:active{ color:#30F;}
+#contentDiv {
+    background: #fff;
+}
+#contentDiv a {
+    color: #080808;
+}
+.backA {
+    text-decoration:none;
+    z-index: 999;
+    color: #444444;
+    margin-top: 10px;
+    margin-left: 33px;
+}

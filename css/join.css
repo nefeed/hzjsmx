@@ -1,0 +1,10 @@
+#tabinfo ul li {
+  width: 35%;
+}
+#downloadDiv {
+  text-align: center;
+  color: #333;
+}
+#downloadDiv  a{ color:#333; text-decoration:none;}
+#downloadDiv  a:hover{ color:#F00; text-decoration:underline;}
+#downloadDiv  a:active{ color:#30F;}

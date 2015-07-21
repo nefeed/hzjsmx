@@ -1,0 +1,18 @@
+#aVerifyCode {
+    width: 30% ;
+    float: left;
+}
+#verifyImg {
+    margin-left: 20px;
+    width: 81px;
+    height: 34px;
+    float: left;
+}
+.verifya {
+    color: #000;
+    float: left;
+}
+.replacea {
+    padding-top: 7px;
+    padding-left: 10px;
+}

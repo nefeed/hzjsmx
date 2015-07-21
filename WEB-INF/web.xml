@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <description>杭州景顺旅游用品有限公司</description>
+
+    <servlet>
+        <description>输出用户加盟信息</description>
+        <display-name>用户加盟</display-name>
+        <servlet-name>joinServlet</servlet-name>
+        <servlet-class>gavin.Servlet.joinServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description>输出用户留言意见</description>
+        <display-name>用户留言</display-name>
+        <servlet-name>adviceServlet</servlet-name>
+        <servlet-class>gavin.Servlet.adviceServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description>输出验证码和验证码图片地址</description>
+        <display-name>验证码</display-name>
+        <servlet-name>verifycodeServlet</servlet-name>
+        <servlet-class>gavin.Servlet.verifycodeServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>joinServlet</servlet-name>
+        <url-pattern>/joinServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>adviceServlet</servlet-name>
+        <url-pattern>/adviceServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>verifycodeServlet</servlet-name>
+        <url-pattern>/verifycodeServlet</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+</web-app>

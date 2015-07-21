@@ -1,0 +1,54 @@
+/*=========脚注菜单===========*/
+div#bottommenu{
+	margin: 0;
+	padding:0;
+	border: 0;
+	height: 28px;
+	color:#fff;
+	font:12px/28px Verdana,microsoft yahei,Arial;
+	text-align:center;
+}
+/*公司名称*/
+div#bottomCompany {
+	margin-top: 15px;
+	padding:0;
+	border: 0;
+	color:#fff;
+	line-height: 24px;
+	font:12px Verdana,microsoft yahei,Arial;
+	text-decoration: none;
+	text-align:center;
+}
+div#bottomCompany font {
+	padding:0;
+	border: 0;
+	color:#fff;
+	line-height: 24px;
+	font:12px Verdana,microsoft yahei,Arial;
+	text-decoration: none;
+	text-align:center;
+}
+/*公司备案汉*/
+div#bottomRecords {
+	margin-top: 15px;
+	margin-bottom: 15px ;
+	padding:0;
+	border: 0;
+	color:#fff;
+	line-height: 24px;
+	font:12px Verdana,microsoft yahei,Arial;
+	text-decoration: none;
+	text-align:center;
+}
+
+div#bottommenu a:link,div#bottommenu a:visited,div#bottommenu a:active{
+margin:0px 10px 0px 5px;
+color:#fff;
+font:12px/28px Verdana,microsoft yahei,Arial;
+text-decoration: none;
+}
+
+div#bottommenu a:hover{
+color:#ff6600;
+text-decoration: underline;
+}

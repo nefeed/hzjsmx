@@ -1,0 +1,257 @@
+blockquote, body, button, caption, dd, div, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, hr, html, input, legend, li, menu, ol, p, pre, table, td, textarea, th, ul {
+	margin: 0;
+	padding: 0
+}
+address, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+caption, th {
+	text-align: left;
+	font-weight: 400
+}
+abbr, body, fieldset, html, iframe, img {
+	border: 0
+}
+address, cite, dfn, em, i, var {
+	font-style: normal
+}
+[hidefocus], summary {
+outline:0
+}
+li {
+	list-style: none
+}
+h1, h2, h3, h4, h5, h6, small {
+	font-size: 100%
+}
+sub, sup {
+	font-size: 83%
+}
+code, kbd, pre, samp {
+	font-family: inherit
+}
+q:after, q:before {
+	content: none
+}
+textarea {
+	overflow: auto;
+	resize: none
+}
+label, summary {
+	cursor: default
+}
+a, button {
+	cursor: pointer
+}
+body, button, input, keygen, legend, select, textarea {
+	outline: 0
+}
+body {
+	background: #fff
+}
+a, a:hover {
+	color: #333
+}
+html {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale
+}
+*, *:after, *:before {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: content-box;
+	box-sizing: border-box
+}
+input, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit
+}
+button, input[type=button], input[type=reset], input[type=submit] {
+	cursor: pointer;
+	-webkit-appearance: button
+}
+button[disabled], input[disabled] {
+	cursor: default
+}
+img {
+	image-rendering: optimizeQuality;
+	-ms-interpolation-mode: bicubic
+}
+lable {
+	cursor: pointer
+}
+.fl {
+	float: left
+}
+.fr {
+	float: right
+}
+.tac {
+	text-align: center
+}
+.tal {
+	text-align: left
+}
+.tar {
+	text-align: right
+}
+.vat {
+	vertical-align: top
+}
+.vam {
+	vertical-align: middle
+}
+.clear-fix:after {
+	content: '';
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both
+}
+.clear-fix {
+	zoom: 1;
+	clear: both
+}
+.hide {
+	display: none
+}
+.ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	white-space: nowrap
+}
+.inline-block {
+	display: inline-block;
+*display:inline;
+	zoom: 1
+}
+.ime-disabled {
+	-webkit-ime-mode: disabled;
+	ime-mode: disabled
+}
+body {
+	font: 12px Verdana, Arial, "\5FAE\8F6F\96C5\9ED1";
+	line-height: 1;
+*line-height:1.2
+}
+a, a:hover {
+	text-decoration: none
+}
+
+.side-pannel {
+	position: fixed;
+	left: 50%;
+	margin-left: 496px;
+	z-index: 99
+}
+.side-bar {
+	border: 1px solid #E7E7E7;
+	border-bottom: none;
+	bottom: 100px;
+	background: #fff
+}
+.side-bar a {
+	display: block;
+	cursor: pointer;
+	width: 70px;
+	height: 60px;
+	border-bottom: 1px solid #E7E7E7;
+	position: relative;
+	color: #676767;
+	text-align: center
+}
+.side-bar a s {
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+.side-bar a span {
+	line-height: 20px
+}
+
+.side-bar a.gotop s {
+	position: absolute;
+	top: 50%;
+	left: 17px
+}
+.side-bar a.text {
+	padding-top: 25px
+}
+.side-bar a.qr s {
+	position: absolute;
+	top: 50%;
+	left: 18px
+}
+.side-bar a.qr i {
+	width: 277px;
+	height: 259px;
+	position: absolute;
+	left: -277px;
+	top: 50%;
+	margin-top: -120px;
+	display: none;
+	background-position: 0 0
+}
+.side-bar a.qr:hover i {
+	display: block
+}
+.side-bar a.qr i {
+	background-image: url(../img/sprite2.png)
+}
+
+.g-icon-top {
+	height: 20px;
+	width: 35px;
+	margin-top: -10px;
+	background-position: 0 -33px
+}
+.g-icon-survey1 {
+	height: 23px;
+	width: 26px;
+	margin-top: -11px;
+	background-position: 0 -53px
+}
+.side-bar a.survey:hover s {
+	height: 23px;
+	width: 26px;
+	margin-top: -11px;
+	background-position: -26px -53px
+}
+.g-icon-qq1 {
+	height: 20px;
+	width: 22px;
+	margin-top: -10px;
+	background-position: -35px -33px
+}
+.g-icon-weibo1 {
+	height: 25px;
+	width: 27px;
+	margin-top: -12px;
+	background-position: -72px 0
+}
+.g-icon-weibo2, .side-bar a.weibo:hover s {
+	height: 25px;
+	width: 27px;
+	margin-top: -12px;
+	background-position: -72px -25px
+}
+.g-icon-qr1 {
+	height: 33px;
+	width: 36px;
+	margin-top: -16px;
+	background-position: -36px 0
+}
+.g-icon-qr2, .side-bar a.qr:hover s {
+	height: 33px;
+	width: 36px;
+	margin-top: -16px;
+	background-position: 0 0
+}
+
+.g-icon-qq1, .g-icon-qr1, .g-icon-qr2, .g-icon-survey1, .g-icon-survey2, .g-icon-top, .g-icon-weibo1, .g-icon-weibo2,.side-bar a.qr:hover s, .side-bar a.survey:hover s, .side-bar a.weibo:hover s{background-image: url(../img/sprite1.png)}

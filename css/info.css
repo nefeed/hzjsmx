@@ -1,0 +1,7 @@
+#newsTableDiv td {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#newsTableDiv  a{ color:#333; text-decoration:none;}
+#newsTableDiv  a:hover{ color:#F00; text-decoration:underline;}
+#newsTableDiv  a:active{ color:#30F;}
